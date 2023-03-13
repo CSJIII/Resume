@@ -96,6 +96,7 @@
                 <div class="semi-bold">Web Resume</div> 
                 <div class="project_info">
                   <p>Utilized HTML and CSS to create a more stylized website version of my resume</p>
+                  <p>Used JavaScript to create three different Background Changers that change the background image of the resume when clicked</p>
             </li>
         </ul>
     </div>
@@ -113,6 +114,33 @@
             </li>
         </ul>
     </div>
+    <div class="resume_item resume_bgc">
+    <div class="title">
+    <p class="bold">Background Changers</p>
+    <button id="click1">Night Sky</button>
+<script>
+  var btn1 = document.getElementById("click1"); 
+	btn1.onclick = function() {
+	document.body.style.backgroundImage = "url('https://s7d2.scene7.com/is/image/TWCNews/stars_png')"
+}
+</script>
+    <button id="click2">Blue Sky</button>
+<script> 
+	var btn2 = document.getElementById("click2"); 
+	var body = document.getElementsByTagName("body");	 
+	btn2.addEventListener("click", function () { 
+	body[0].style.backgroundImage = "url('https://www.worldatlas.com/r/w1200/upload/56/c5/7c/shutterstock-520792630.jpg')" 
+	});
+</script>
+    <button id="click3">Evening Sky</button>
+<script> 
+	var btn3 = document.getElementById("click3");  
+	btn3.addEventListener("click", function () { 
+	document.body.style.backgroundImage = "url('https://www.planetware.com/wpimages/2020/04/iceland-best-waterfalls-seljalandsfoss.jpg')" 
+	});
+</script>
+</div>
+</div>
 </div>
 </div>
 </div>

@@ -137,13 +137,13 @@ a:visited {
 
 /* Changes the color and text of the skills title that is above the skills section of the resume */
 .skill {
-    font-weight: 800;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #fff;
-    padding-left: 40px;
-    overflow: hidden;
-  }
+  font-weight: 800;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  padding-left: 40px;
+  overflow: hidden;
+}
 
 /* Edits the characteristics of the text in the skill section */
 .skills_list {
@@ -170,7 +170,12 @@ a:visited {
   font-weight: 500;
 }
 
-/* Spaces out the P element under Recent Projects so that it is more readable */
+/* Spaces out the P elements under the Recent Projects section so that they are more readable */
 .project_info p {
   margin-top: 5px;
+}
+
+/* Removes the unnecessary bottom border line that is below the Background Changers section */
+.resume .resume_right .resume_item:last-child {
+   border-bottom: 0px;
 }
