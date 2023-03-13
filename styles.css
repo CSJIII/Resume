@@ -1,0 +1,176 @@
+/* Establishes the box shape and font style of the resume text */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Changes the background color to a specific image and sets the tone for the all the text that is not specified by a class */
+body {
+  background-image: url('https://www.worldatlas.com/r/w1200/upload/56/c5/7c/shutterstock-520792630.jpg');
+  background-size: cover;
+  font-size: 17px;
+  font-weight: 500;;
+  line-height: 22px;
+  color: black;
+}
+
+/* Turns the link purple after clicking on it to show that it has been visited */
+a:visited {
+  color: purple;
+}
+
+/* Adjusts the text of all elements in the bold class */
+.bold {
+  font-weight: 800;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+/* Adjusts the text of all elements in the semi-bold class */
+.semi-bold {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Changes my resume into a left to right stack rather than the original top to bottom stack */
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+/* Makes the left side of my resume blue and sets the width */
+.resume .resume_left {
+  width: 280px;
+  background: #0bb5f4;
+}
+
+/* Reduces excess space between my profile picture and my name */
+.resume .resume_left .resume_profile {
+  width: 100%;
+  height: 280px;
+}
+
+/* Makes my profile picture look more even */
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Aligns all of the content on the left side of the resume by pushing it right */
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+/* Spaces out all of the title elements */
+.resume .title {
+  margin-bottom: 20px;
+}
+
+/* Changes my name to the color white */
+.resume .resume_left .bold {
+  color: #fff;
+}
+
+/* Changes the color and text of the Software Developer title */
+.resume .resume_left .regular {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+/* Creates bottom borders to help space out the resume content */
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+/* Aligns the contact icons and the contact text */
+.resume .resume_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+/* Gives character to the elements of the contact icons and makes them visisble */
+.resume .resume_left ul li .icon {
+  width: 28px;
+  height: 30px;
+  background: #fff;
+  color: #0bb5f4;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-size: 17px;
+  position: relative;
+}
+
+/* Centers the inside elements of the contact elements icons */
+.resume .icon i,
+.resume .resume_right ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Turns all the contact text elements on the left side of the resume white (Email, Cell Phone, GitHub, Linkedin) */
+.resume .resume_left ul li .data {
+  color: #fff;
+}
+
+/* Adds a different color to the right side of the resume and gives the content on the right side some better spacing */
+.resume .resume_right {
+  width: 520px;
+  background: #d0d0d0;
+  padding: 25px;
+}
+
+/* Turns all elements of the bold class blue to better match the look of the resume */
+.resume .resume_right .bold {
+  color: #0bb5f4;
+}
+
+/* Changes the color and text of the skills title that is above the skills section of the resume */
+.skill {
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 40px;
+    overflow: hidden;
+  }
+
+/* Edits the characteristics of the text in the skill section */
+.skills_list {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Pushes and aligns the Skills section to the right */
+.resume .resume_left .resume_skills ul {
+  padding-left: 40px;
+}
+
+/* Pushes and aligns the Projects and Education sections to the right */
+.resume .resume_right .resume_projects ul,
+.resume .resume_right .resume_education ul {
+  padding-left: 8px;
+  overflow: hidden;
+}
+
+/* Controls the font properties of the education section */
+.resume .resume_right ul li {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Spaces out the P element under Recent Projects so that it is more readable */
+.project_info p {
+  margin-top: 5px;
+}
