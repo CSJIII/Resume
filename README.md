@@ -5,9 +5,9 @@ The image below is a picture of my regular resume as a pdf!
 ![image](https://user-images.githubusercontent.com/80130998/224591571-43e9d172-a8e2-42d6-abf7-aea2e4baed16.png)
 
 The images below are all pictures of how the HTML website version of my resume currently looks with the new added JavaScript changes!
-![image](https://user-images.githubusercontent.com/80130998/224591838-4fac346d-3099-4386-9174-05125cff3513.png)
-![image](https://user-images.githubusercontent.com/80130998/224591281-529caa10-3901-4aaf-a798-b06c4ca323b7.png)
-![image](https://user-images.githubusercontent.com/80130998/224591870-e5fdf84d-3e89-4cc6-b90f-b64dadcce080.png)
+![image](https://user-images.githubusercontent.com/80130998/226020124-390e7601-9771-41f8-8495-bc4f13fd56dc.png)
+![image](https://user-images.githubusercontent.com/80130998/226020247-83d26a14-5689-441c-b4a2-38c177305420.png)
+![image](https://user-images.githubusercontent.com/80130998/226020358-393ce4c4-9e9d-47eb-a5f3-ad6ec6bc92f4.png)
 
 As you can see, there are three different images that represent three different versions of my web resume, each with different backgrounds. This is made possible because of the new JavaScript elements, which I call background changers. You can see them in the bottom right section of my resume, and they will switch the background to the corresponding image that they are named after. I tried to use a different method to code the functionality of each of those three elements just so that I would get the chance to learn how to code the same thing using different methods.
 

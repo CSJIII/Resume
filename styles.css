@@ -110,22 +110,22 @@ a:visited {
 /* The resume_classes are used to create bottom borders to space out the resume content */
 .resume_info {
   padding: 25px 0px 10px;
-  border-bottom: 2px solid #b1eaff;
+  border-bottom: 2px solid #0c4fd6;
 }
 
 .resume_about {
   padding: 32px 0px 20px;
-  border-bottom: 2px solid #b1eaff;
+  border-bottom: 2px solid #0c4fd6;
 }
 
 .resume_projects {
   padding: 20px 0px 15px;
-  border-bottom: 2px solid #b1eaff;
+  border-bottom: 2px solid #0c4fd6;
 }
 
 .resume_education {
   padding: 20px 0px 15px;
-  border-bottom: 2px solid #b1eaff;
+  border-bottom: 2px solid #0c4fd6;
 }
 
 .resume_skills {
