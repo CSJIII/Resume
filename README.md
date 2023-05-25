@@ -1,5 +1,5 @@
 # Resume
-This Repository contains the website version of my Resume!
+This Repository contains the website version of my old Resume!
 
 The image below is a picture of my regular resume as a pdf!
 ![image](https://user-images.githubusercontent.com/80130998/224591571-43e9d172-a8e2-42d6-abf7-aea2e4baed16.png)
