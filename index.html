@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Collins Johnson">
+  <meta name="description" content="This page contains an HTML version of my Computer Science Resume.">
+  <title>Resume</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/e/e5/Solid_blue.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- ================================================ -->
+  <!--                      HEADER                      -->
+  <!-- ================================================ -->
+
+  <header class="header">
+    <figure class="item item-1">
+      <img class="my_picture" src="images\GitHub PFP.jpg" alt="Avatar">
+    </figure>
+    
+    <section class="item item-2">
+      <h1 class="my_name">Collins Johnson</h1>
+      <h2 class="my_occupation">Software Engineer</h2>
+      <p class="my_summary">I'm a computer science graduate with over 4 years of university experience who is currently looking for work. I have experience working in both front-end and back-end development, but I mostly specialize in front-end development. I love designing user interfaces and have recently been focusing on getting better at responsive design.</p>
+    </section>
+
+  <!-- ===================================================== -->
+  <!--              DYNAMIC JAVASCRIPT ELEMENTS              -->
+  <!-- ===================================================== -->
+
+    <section class="item item-3">
+      <h2 id="clock"></h2>
+      <h2 class="bgchange">Background Changers</h2>
+      <button class="button1" onclick="click1()">Night Sky</button>
+      <button class="button2" onclick="click2()">Blue Sky</button>
+      <button class="button3" onclick="click3()">Evening Sky</button>
+      <button class="button4" onclick="click4()">Default</button>
+    </section>
+  </header>
+
+  <!-- ============================================= -->
+  <!--                    CONTACT                    -->
+  <!-- ============================================= -->
+
+  <nav class="contact">
+    <h3 class="item email">Email</h3>
+    <h3 class="item mobile">Phone number</h3>
+    <h3 class="item location">Location</h3>
+    <h3 class="item linkedin">Linkedin</h3>
+    <h3 class="item github">GitHub</h3>
+  </nav>
+
+  <!-- ============================================================ -->
+  <!--                  EDUCATION & CERTIFICATIONS                  -->
+  <!-- ============================================================ -->
+
+  <main class="qualifications">
+    <section class="item education">
+      <h2 class="education_section_title">Education</h2>
+      <ul>
+        <li class="school">University of the People, Online University</li>
+        <li class="degree">Bachelor of Science, Computer Science </li>
+        <li class="grades">GPA: 3.4</li>
+        <li class="grad_date">November 2015 – October 2020</li>
+      </ul>
+      
+      <ul>
+        <li class="certificate">Google IT Support Certification</li>
+        <li class="certificate_provider">Issued by Google</li>
+        <li class="issue_date">Issued on December 2023</li>
+      </ul>
+    </section>
+
+  <!-- ============================================ -->
+  <!--                    SKILLS                    -->
+  <!-- ============================================ -->
+
+  <section class="item skills">
+    <h2 class="skills_section_title">Skills</h2>
+    <ul>
+      <li>Front-end: HTML, CSS, JavaScript, React, TypeScript</li>
+      <li>Back-end: Python, Django, SQL, MySQL, Java, Spring Boot, PHP, Laravel</li>
+      <li>Other: Responsive Web Design, Docker, Oracle VM VirtualBox (Windows and Linux Virtual Machines)</li>
+    </ul>
+  </section>
+
+  <!-- ============================================ -->
+  <!--                   PROJECTS                   -->
+  <!-- ============================================ -->
+
+  <section class="item projects">
+    <h2 class="projects_section_title">Projects</h2>
+    <h3 class="project_name"><a href="https://github.com/CSJIII/Old-Resume">Old Web Resume</a></h3>
+    <ul>
+      <li>Old website version of my current resume that I made using only HTML, CSS, and JavaScript.</li>
+      <li>Ended up being too simple for my tastes but I loved that I learned a lot about CSS while working on this 
+        project and learned how to use premade icons from sources like fontawesome.com.</li>
+      <li>Utilized JavaScript to create three different widgets that will change the background when clicked.</li>
+    </ul>
+
+    <h3 class="project_name"><a href="https://github.com/CSJIII/Resume">Responsive Designed Web Resume</a></h3>
+    <ul>
+      <li>New version of my resume website that utilizes Responsive Web Design and makes better use of 
+        Semantic HTML and HTML comments to make a slightly more complex web resume with much better user interface formatting and much prettier-looking, better-organized code.</li>
+      <li>Utilized JavaScript to add a fourth widget that will change the background back to the default color 
+        when clicked and implemented a fully functional real-time clock.</li>
+      <li>Currently working on using Python and Django to make a CRUD app version of this web resume.</li>
+    </ul>
+  </section>
+
+  <!-- ============================================ -->
+  <!--               WORK EXPERIENCE                -->
+  <!-- ============================================ -->
+
+    <section class="item work-experience">
+      <h2 class="work_experience_section_title">Work Experience</h2>
+      <h3 class="job_info">Temporary Election Field Support | Field Technician</h3>
+      <h3 class="job_info">April 2024 – Present</h3>
+      <h3 class="job_info">Anne Arundel County Board of Elections - Full-time</h3>
+      <ul>
+        <li>Performed maintenance operations on Poll Pad electronic poll books and DS200 Ballot Scanning Units and learned how to fix jams, wrongly inputted voter information, and internet connection issues.</li>
+        <li>Learned how to setup Ballot Marking Devices to both assist users who did not want to mark their ballots by pen and to help poll workers have an easier time looking up and correctly registering voters.</li>
+        <li>Learned how to hook up multiple electronic poll books to Cradlepoint routers and how to prevent and troubleshoot the most common types of connectivity issues that can occur with these types of routers.</li>
+      </ul>
+
+      
+      <h3 class="job_info">Food Delivery Driver</h3>
+      <h3 class="job_info">September 2023 – April 2024</h3>
+      <h3 class="job_info">Door Dash</h3>
+      <ul>
+        <li>Successfully delivered more than 100 food orders to customers in the state of Maryland whilst maintaining a
+          five star customer satisfaction rating.</li>
+        <li>Often had to take several one-day delivery orders that had me lift tons of packages, some of which were 
+          60 pounds and others that were even heavier.</li>
+        <li>Regularly communicated with customers to make sure that they got everything that they wanted and 
+          updated them when items were out of stock so that they could request alternatives.</li>
+      </ul>
+
+      <h3 class="job_info">IT Support</h3>
+      <h3 class="job_info">January 2015 – March 2020</h3>
+      <h3 class="job_info">Johnson Martial Arts & Fitness Center LLC, Upper Marlboro, MD</h3>
+      <ul>
+        <li>Hooked up computers, printers, mouse devices, keyboards, and routers and made sure that every device 
+          worked correctly, got updated or reset when necessary, and got replaced when said devices were no 
+          longer operational. </li>
+        <li>Checked logs and regularly ran scans to make sure that all tech devices were safe from malware attacks 
+          and quickly disposed of any malware that did find its way into tech devices upon discovery.</li>
+        <li>Made sure that users could connect their phones, laptops, and tablets to the Wi-Fi and that the 
+          connection was running smoothly.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
